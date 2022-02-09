@@ -4,7 +4,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@color/white"
+    >
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -15,30 +17,39 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="BMI : " />
+            android:text="BMI : "
+            android:textColor="@color/custon_black"
+            android:textSize="30dp" />
 
         <TextView
             android:id="@+id/bmiResultTextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="333333333" />
+            android:text="333333333"
+            android:textColor="@color/custon_black"
+            android:textSize="30dp" />
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        >
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="결과는 " />
+            android:text="결과는 "
+            android:textColor="@color/custon_black"
+            android:textSize="30dp" />
 
         <TextView
             android:id="@+id/resultTextView"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:textColor="@color/custon_black"
+            android:textSize="30dp" />
     </LinearLayout>
 
 </LinearLayout>
